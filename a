@@ -1,0 +1,20 @@
+#! /usr/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x1c4fd40 .scope module, "semaforo" "semaforo" 2 1;
+ .timescale 0 0;
+v0x1c4fe30_0 .net "botao", 0 0, C4<z>; 0 drivers
+v0x1c80610_0 .net "clock", 0 0, C4<z>; 0 drivers
+v0x1c806b0_0 .net "reset", 0 0, C4<z>; 0 drivers
+    .scope S_0x1c4fd40;
+T_0 ;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "semaforo.v";
